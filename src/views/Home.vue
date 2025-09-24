@@ -125,62 +125,150 @@ const skills = [
       </div>
     </div>
   </section>
-  <section class="py-20 px-6">
+  <section class="py-20 px-6 bg-gray-50 dark:bg-gray-800/50">
     <div class="max-w-6xl mx-auto">
       <h3 class="text-4xl md:text-5xl font-light text-center text-gray-900 dark:text-white mb-10">Experiência
         corporativa</h3>
       <p class="text-xl text-gray-600 dark:text-gray-400 text-center mb-16 max-w-3xl mx-auto">Desenvolvedor experiente
         em projetos empresariais, trabalhando com equipes multidisciplinares para
         criar soluções robustas e escaláveis. </p>
-    </div>
-    <div class="grid md:grid-cols-2 gap-8 mb-20">
-      <div
-        class="bg-white dark:bg-gray-800 rounded-2xl p-8 shadow-lg dark:shadow-gray-900/20 border border-gray-100 dark:border-gray-700 transition-all duration-300 group-hover:shadow-xl">
-        <p>Projetos Corporativos</p>
-        <p>Desenvolvimento em equipes de grandes empresas</p>
-        <ul>
-          <li>Sistemas empresariais</li>
-          <li>Arquitetura escalável</li>
-          <li>Metodologias ágeis</li>
-        </ul>
-      </div>
-      <div
-        class="bg-white dark:bg-gray-800 rounded-2xl p-8 shadow-lg dark:shadow-gray-900/20 border border-gray-100 dark:border-gray-700 transition-all duration-300 group-hover:shadow-xl">
-        <p>Stack Moderno e Legado</p>
-        <p>Tecnologias atuais e melhores práticas</p>
-        <ul>
-          <li>PHP & Laravel</li>
-          <li>VueJs</li>
-          <li>APIs RESTful</li>
-        </ul>
-      </div>
-      <div
-        class="bg-white dark:bg-gray-800 rounded-2xl p-8 shadow-lg dark:shadow-gray-900/20 border border-gray-100 dark:border-gray-700 transition-all duration-300 group-hover:shadow-xl">
-        <p>Trabalho em Equipe</p>
-        <p>Colaboração efetiva em ambientes corporativos</p>
-        <ul>
-          <li>Comunicação Técnica</li>
-          <li>Resolução de Conflitos</li>
-          <li>Compartilhamento de Conhecimento</li>
-        </ul>
-      </div>
-      <div
-        class="bg-white dark:bg-gray-800 rounded-2xl p-8 shadow-lg dark:shadow-gray-900/20 border border-gray-100 dark:border-gray-700 transition-all duration-300 group-hover:shadow-xl">
-        <p>Foco em Resultados</p>
-        <p>Soluções que impactam o negócio</p>
-        <ul>
-          <li>Performance</li>
-          <li>Escalabilidade</li>
-          <li>Manutenibilidade</li>
-        </ul>
+      <div class="grid md:grid-cols-2 gap-8 mb-20">
+        <div
+          class="bg-white dark:bg-gray-800 rounded-2xl p-8 shadow-lg dark:shadow-gray-900/20 border border-gray-100 dark:border-gray-700 transition-all duration-300 group-hover:shadow-xl">
+          <div
+            class="w-20 h-20 rounded-3xl bg-gradient-to-br from-blue-500 to-cyan-500 flex items-center justify-center text-white mb-6 group-hover:scale-110 group-hover:rotate-6 transition-all duration-300">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="lucide lucide-building2 lucide-building-2 w-10 h-10" aria-hidden="true">
+              <path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z"></path>
+              <path d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2"></path>
+              <path d="M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2"></path>
+              <path d="M10 6h4"></path>
+              <path d="M10 10h4"></path>
+              <path d="M10 14h4"></path>
+              <path d="M10 18h4"></path>
+            </svg>
+          </div>
+          <h3 class="text-2xl font-semibold text-gray-900 dark:text-white mb-3">Projetos Corporativos</h3>
+          <p class="text-gray-600 dark:text-gray-300 mb-6 leading-relaxed">Desenvolvimento em equipes de grandes
+            empresas</p>
+          <div class="space-y-2">
+            <div class="flex items-center gap-3" style="opacity: 1; transform: none;">
+              <div class="w-2 h-2 rounded-full bg-gradient-to-r from-blue-500 to-cyan-500"></div><span
+                class="text-sm text-gray-700 dark:text-gray-300 font-medium">Sistemas empresariais</span>
+            </div>
+            <div class="flex items-center gap-3" style="opacity: 1; transform: none;">
+              <div class="w-2 h-2 rounded-full bg-gradient-to-r from-blue-500 to-cyan-500"></div><span
+                class="text-sm text-gray-700 dark:text-gray-300 font-medium">Arquitetura escalável</span>
+            </div>
+            <div class="flex items-center gap-3" style="opacity: 1; transform: none;">
+              <div class="w-2 h-2 rounded-full bg-gradient-to-r from-blue-500 to-cyan-500"></div><span
+                class="text-sm text-gray-700 dark:text-gray-300 font-medium">Metodologias ágeis</span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="bg-white dark:bg-gray-800 rounded-2xl p-8 shadow-lg dark:shadow-gray-900/20 border border-gray-100 dark:border-gray-700 transition-all duration-300 group-hover:shadow-xl">
+          <div
+            class="w-20 h-20 rounded-3xl bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center text-white mb-6 group-hover:scale-110 group-hover:rotate-6 transition-all duration-300">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="lucide lucide-code w-10 h-10" aria-hidden="true">
+              <path d="m16 18 6-6-6-6"></path>
+              <path d="m8 6-6 6 6 6"></path>
+            </svg>
+          </div>
+          <h3 class="text-2xl font-semibold text-gray-900 dark:text-white mb-3">Stack Moderno e Legado</h3>
+          <p class="text-gray-600 dark:text-gray-300 mb-6 leading-relaxed">Tecnologias atuais e melhores práticas</p>
+          <div class="space-y-2">
+            <div class="flex items-center gap-3" style="opacity: 1; transform: none;">
+              <div class="w-2 h-2 rounded-full bg-gradient-to-r from-purple-500 to-pink-500"></div><span
+                class="text-sm text-gray-700 dark:text-gray-300 font-medium">PHP &amp; Laravel</span>
+            </div>
+            <div class="flex items-center gap-3" style="opacity: 1; transform: none;">
+              <div class="w-2 h-2 rounded-full bg-gradient-to-r from-purple-500 to-pink-500"></div><span
+                class="text-sm text-gray-700 dark:text-gray-300 font-medium">Vue.js </span>
+            </div>
+            <div class="flex items-center gap-3" style="opacity: 1; transform: none;">
+              <div class="w-2 h-2 rounded-full bg-gradient-to-r from-purple-500 to-pink-500"></div><span
+                class="text-sm text-gray-700 dark:text-gray-300 font-medium">APIs RESTful</span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="bg-white dark:bg-gray-800 rounded-2xl p-8 shadow-lg dark:shadow-gray-900/20 border border-gray-100 dark:border-gray-700 transition-all duration-300 group-hover:shadow-xl">
+          <div
+            class="w-20 h-20 rounded-3xl bg-gradient-to-br from-orange-500 to-red-500 flex items-center justify-center text-white mb-6 group-hover:scale-110 group-hover:rotate-6 transition-all duration-300">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="lucide lucide-users w-10 h-10" aria-hidden="true">
+              <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
+              <path d="M16 3.128a4 4 0 0 1 0 7.744"></path>
+              <path d="M22 21v-2a4 4 0 0 0-3-3.87"></path>
+              <circle cx="9" cy="7" r="4"></circle>
+            </svg>
+          </div>
+          <h3 class="text-2xl font-semibold text-gray-900 dark:text-white mb-3">Trabalho em Equipe</h3>
+          <p class="text-gray-600 dark:text-gray-300 mb-6 leading-relaxed">Colaboração efetiva em ambientes corporativos
+          </p>
+          <div class="space-y-2">
+            <div class="flex items-center gap-3" style="opacity: 1; transform: none;">
+              <div class="w-2 h-2 rounded-full bg-gradient-to-r from-orange-500 to-red-500"></div><span
+                class="text-sm text-gray-700 dark:text-gray-300 font-medium">Comunicação Técnica</span>
+            </div>
+            <div class="flex items-center gap-3" style="opacity: 1; transform: none;">
+              <div class="w-2 h-2 rounded-full bg-gradient-to-r from-orange-500 to-red-500"></div><span
+                class="text-sm text-gray-700 dark:text-gray-300 font-medium">Resolução de Conflitos</span>
+            </div>
+            <div class="flex items-center gap-3" style="opacity: 1; transform: none;">
+              <div class="w-2 h-2 rounded-full bg-gradient-to-r from-orange-500 to-red-500"></div><span
+                class="text-sm text-gray-700 dark:text-gray-300 font-medium">Compartilhamento de Conhecimento</span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="bg-white dark:bg-gray-800 rounded-2xl p-8 shadow-lg dark:shadow-gray-900/20 border border-gray-100 dark:border-gray-700 transition-all duration-300 group-hover:shadow-xl">
+          <div
+            class="w-20 h-20 rounded-3xl bg-gradient-to-br from-green-500 to-emerald-500 flex items-center justify-center text-white mb-6 group-hover:scale-110 group-hover:rotate-6 transition-all duration-300">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="lucide lucide-target w-10 h-10" aria-hidden="true">
+              <circle cx="12" cy="12" r="10"></circle>
+              <circle cx="12" cy="12" r="6"></circle>
+              <circle cx="12" cy="12" r="2"></circle>
+            </svg>
+          </div>
+          <h3 class="text-2xl font-semibold text-gray-900 dark:text-white mb-3">Foco em Resultados</h3>
+          <p class="text-gray-600 dark:text-gray-300 mb-6 leading-relaxed">Soluções que impactam o negócio</p>
+          <div class="space-y-2">
+            <div class="flex items-center gap-3" style="opacity: 1; transform: none;">
+              <div class="w-2 h-2 rounded-full bg-gradient-to-r from-green-500 to-emerald-500"></div><span
+                class="text-sm text-gray-700 dark:text-gray-300 font-medium">Performance</span>
+            </div>
+            <div class="flex items-center gap-3" style="opacity: 1; transform: none;">
+              <div class="w-2 h-2 rounded-full bg-gradient-to-r from-green-500 to-emerald-500"></div><span
+                class="text-sm text-gray-700 dark:text-gray-300 font-medium">Escalabilidade</span>
+            </div>
+            <div class="flex items-center gap-3" style="opacity: 1; transform: none;">
+              <div class="w-2 h-2 rounded-full bg-gradient-to-r from-green-500 to-emerald-500"></div><span
+                class="text-sm text-gray-700 dark:text-gray-300 font-medium">Manutenibilidade</span>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <div class="max-w-4xl mx-auto p-8 bg-white dark:bg-gray-800 rounded-3xl relative overflow-hidden shadow-lg">
       <!-- <div class="p-8 bg-white dark:bg-gray-800 rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 dark:border-gray-700 h-full"> -->
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-trending-up w-16 h-16 text-blue-400 mx-auto mb-6" aria-hidden="true"><path d="M16 7h6v6"></path><path d="m22 7-8.5 8.5-5-5L2 17"></path></svg>
-        <h3 class="text-3xl font-light text-gray-900 text-center mb-4">Crescimento Contínuo</h3>
-        <p class="text-gray-600  text-lg leading-relaxed">Constantemente aprendendo e aplicando novas tecnologias em projetos reais, sempre focado em entregar valor e
-          impacto para o negócio.</p>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+        class="lucide lucide-trending-up w-16 h-16 text-blue-400 mx-auto mb-6" aria-hidden="true">
+        <path d="M16 7h6v6"></path>
+        <path d="m22 7-8.5 8.5-5-5L2 17"></path>
+      </svg>
+      <h3 class="text-3xl font-light text-gray-900 text-center mb-4">Crescimento Contínuo</h3>
+      <p class="text-gray-600  text-lg leading-relaxed">Constantemente aprendendo e aplicando novas tecnologias em
+        projetos reais, sempre focado em entregar valor e
+        impacto para o negócio.</p>
       <!-- </div> -->
     </div>
   </section>
@@ -191,7 +279,16 @@ const skills = [
       <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
         <div
           class="group p-8 bg-white dark:bg-gray-800 rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 dark:border-gray-700">
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-quote w-8 h-8 text-blue-600 mb-4" aria-hidden="true"><path d="M16 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z"></path><path d="M5 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z"></path></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            class="lucide lucide-quote w-8 h-8 text-blue-600 mb-4" aria-hidden="true">
+            <path
+              d="M16 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z">
+            </path>
+            <path
+              d="M5 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z">
+            </path>
+          </svg>
           <p class="text-lg text-gray-700 dark:text-gray-300 mb-6 leading-relaxed">"Possui um alto comprometimento com o
             trabalho, foca na resolução dos desafios que aparecem, sempre preocupado
             com a empresa e a melhor maneira de ajuda-lá, possui um boa relação com os funcionários e um ótimo empenho
@@ -252,7 +349,8 @@ const skills = [
                 d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0">
               </path>
               <circle cx="12" cy="10" r="3"></circle>
-            </svg></div>
+            </svg>
+          </div>
           <h3 class="text-xl font-medium text-gray-900 dark:text-white">Localização</h3>
           <p class="text-gray-600 dark:text-gray-400">Brasil, Remoto</p>
         </div>
@@ -264,7 +362,8 @@ const skills = [
               class="lucide lucide-clock w-8 h-8 text-white" aria-hidden="true">
               <path d="M12 6v6l4 2"></path>
               <circle cx="12" cy="12" r="10"></circle>
-            </svg></div>
+            </svg>
+          </div>
           <h3 class="text-xl font-medium text-gray-900 dark:text-white">Horário</h3>
           <p class="text-gray-600 dark:text-gray-400">Seg - Sex, 9h às 18h</p>
         </div>
@@ -282,7 +381,8 @@ const skills = [
                 <path d="M20 2v4"></path>
                 <path d="M22 4h-4"></path>
                 <circle cx="4" cy="20" r="2"></circle>
-              </svg></div>
+              </svg>
+            </div>
           </div>
           <h3 class="text-xl font-medium text-gray-900 dark:text-white">Especialidade</h3>
           <p class="text-gray-600 dark:text-gray-400">Full Stack PHP</p>
@@ -308,7 +408,7 @@ const skills = [
       <div class="flex flex-col sm:flex-row gap-4 justify-center">
         <a href="#contato" class="px-6 py-3 bg-gray-900 text-white rounded-md hover:bg-gray-800 transition">Iniciar
           projeto ➡️</a>
-        <div class="flex space-x-4"><a href="https://github.com"
+        <div class="flex space-x-4"><a target="_blank" href="https://github.com/iagosm"
             class="p-3 bg-gray-700 hover:bg-gray-600 rounded-full text-white transition-all duration-300"
             style="transform: none;"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
               fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -317,7 +417,7 @@ const skills = [
                 d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4">
               </path>
               <path d="M9 18c-4.51 2-5-2-7-2"></path>
-            </svg></a><a href="https://linkedin.com"
+            </svg></a><a target="_blank" href="https://www.linkedin.com/in/iagosm/"
             class="p-3 bg-gray-700 hover:bg-gray-600 rounded-full text-white transition-all duration-300"
             style="transform: none;"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
               fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -325,7 +425,7 @@ const skills = [
               <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
               <rect width="4" height="12" x="2" y="9"></rect>
               <circle cx="4" cy="4" r="2"></circle>
-            </svg></a><a href="mailto:contato@iagosilva.dev"
+            </svg></a><a href="mailto:iagosousa201486@gmail.com"
             class="p-3 bg-gray-700 hover:bg-gray-600 rounded-full text-white transition-all duration-300"
             style="transform: none;"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
               fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
