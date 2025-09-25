@@ -43,7 +43,7 @@
                     <circle cx="12" cy="7" r="4"></circle>
                   </svg><input type="text" name="name"
                     class="w-full pl-12 pr-4 py-3 bg-gray-50 dark:bg-gray-700 border border-gray-200 dark:border-gray-600 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-300"
-                    placeholder="Nome" required="" value=""></div>
+                    placeholder="Nome" required value=""></div>
               </div>
               <div class="space-y-2"><label class="text-sm font-medium text-gray-700 dark:text-gray-300">Email</label>
                 <div class="relative"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -53,19 +53,19 @@
                     <rect x="2" y="4" width="20" height="16" rx="2"></rect>
                   </svg><input type="email" name="email"
                     class="w-full pl-12 pr-4 py-3 bg-gray-50 dark:bg-gray-700 border border-gray-200 dark:border-gray-600 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-300"
-                    placeholder="email@exemplo.com" required="" value=""></div>
+                    placeholder="email@exemplo.com" required value=""></div>
               </div>
             </div>
             <div class="space-y-2"><label
                 class="text-sm font-medium text-gray-700 dark:text-gray-300">Assunto</label><input type="text"
                 name="subject"
                 class="w-full px-4 py-3 bg-gray-50 dark:bg-gray-700 border border-gray-200 dark:border-gray-600 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-300"
-                placeholder="Sobre o que você gostaria de conversar?" required="" value=""></div>
+                placeholder="Sobre o que você gostaria de conversar?" required value=""></div>
             <div class="space-y-2"><label
                 class="text-sm font-medium text-gray-700 dark:text-gray-300">Mensagem</label><textarea name="message"
                 rows="5"
                 class="w-full px-4 py-3 bg-gray-50 dark:bg-gray-700 border border-gray-200 dark:border-gray-600 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-300 resize-none"
-                placeholder="Conte-me mais sobre seu projeto ou ideia..." required=""></textarea></div><button
+                placeholder="Conte-me mais sobre seu projeto ou ideia..." required></textarea></div><button
               type="submit"
               class="w-full bg-gray-900 text-white py-4 rounded-xl font-medium flex items-center justify-center space-x-2 hover:shadow-lg transition-all duration-300"
               tabindex="0"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
